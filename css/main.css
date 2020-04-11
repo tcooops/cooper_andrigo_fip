@@ -131,6 +131,7 @@ h4 {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 1.25em;
+
 }
 
 #main-nav button { /* important */
@@ -185,9 +186,9 @@ h4 {
 #main-logo {
 	z-index: 3;
 	background-color: #fff; 
-	border-radius: 100%;
+	border-radius: 10em;
 	display: block;
-	max-width: 8.75em; /* we cannot go beyond this size. It will ONLY grow to this set size. This is dictated by the design of the logo and should be found in your build notes */
+	max-width: 8.75em;
 	margin: 0 auto; 
 }
 
