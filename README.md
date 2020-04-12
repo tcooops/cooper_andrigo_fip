@@ -20,9 +20,4 @@ MIT
 
 ### Authors
 Tessa Benton-Cooper\
-Jordan Andrigo\
-
-## Built With
-HTML
-CSS
-JavaScript
+Jordan Andrigo
