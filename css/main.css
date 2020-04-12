@@ -348,30 +348,26 @@ span {
 	border-radius: 2em;
 	border: none;
 	font-family: rift, helvetica, arial, sans-serif;
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ea3f3f+0,db9a3f+100 */
-background: rgb(234,63,63); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(234,63,63,1) 0%, rgba(219,154,63,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(234,63,63,1) 0%,rgba(219,154,63,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(234,63,63,1) 0%,rgba(219,154,63,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea3f3f', endColorstr='#db9a3f',GradientType=0 ); /* IE6-9 */
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#da364f+0,910a0c+100 */
+	background: rgb(218,54,79); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(218,54,79,1) 0%, rgba(145,10,12,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(218,54,79,1) 0%,rgba(145,10,12,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(218,54,79,1) 0%,rgba(145,10,12,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da364f', endColorstr='#910a0c',GradientType=0 ); /* IE6-9 */
 
 }
 
 .recipe-trigger:active {
 	font-size: 1.55em;
-	-webkit-transition: all 0.2s ease-out;
-	-moz-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
 }
 
 .recipe-trigger:hover {
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#db9a3f+0,ea3f3f+100 */
-background: rgb(219,154,63); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(219,154,63,1) 0%, rgba(234,63,63,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(219,154,63,1) 0%,rgba(234,63,63,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(219,154,63,1) 0%,rgba(234,63,63,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db9a3f', endColorstr='#ea3f3f',GradientType=0 ); /* IE6-9 */
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#910a0c+0,da364f+100 */
+background: #910a0c; /* Old browsers */
+background: -moz-linear-gradient(top,  #910a0c 0%, #da364f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #910a0c 0%,#da364f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #910a0c 0%,#da364f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#910a0c', endColorstr='#da364f',GradientType=0 ); /* IE6-9 */
 }
 
 /* recipe lightbox style */
@@ -602,10 +598,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db9a3f', end
 
 .eco-trigger:active {
 	font-size: 1.55em;
-	-webkit-transition: all 0.2s ease-out;
-	-moz-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
 }
 
 .eco-trigger:hover {
@@ -671,6 +663,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db9a3f', end
 	background: linear-gradient(to bottom,  rgba(218,54,79,1) 0%,rgba(145,10,12,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da364f', endColorstr='#910a0c',GradientType=0 ); /* IE6-9 */
 }
+
+#faq-button:hover {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#910a0c+0,da364f+100 */
+background: #910a0c; /* Old browsers */
+background: -moz-linear-gradient(top,  #910a0c 0%, #da364f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #910a0c 0%,#da364f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #910a0c 0%,#da364f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#910a0c', endColorstr='#da364f',GradientType=0 ); /* IE6-9 */
+}
+
+#faq-button:active {
+	font-size: .8em;
+}
+
 
 #button-span {
 	font-size: 2em;
@@ -1038,7 +1044,6 @@ footer {
 	}
 
 	#featured-grid img {
-		max-width: 9.375em;
 		border-radius: 100%;
 		margin: 0.9375em;
 		-webkit-box-shadow: 1px 2px 8px 1px rgba(190, 190, 190, 0.5);
@@ -1504,13 +1509,13 @@ footer {
 	}
 
 	#contact-submit {
+		width: 14em;
 		font-family: rift, helvetica, arial, sans-serif;
 		height: 9.375em; /*50px */
 		color: #666 !important;
 		font-size: 1.3em;
 		text-decoration: none;
-		align-items: center;
-		border: 1px solid #999 !important;
+		text-align: center;
 		display: inline-flex;
 		-webkit-transition: all 0.2s ease-in-out;
 		-moz-transition: all 0.2s ease-in-out;
@@ -1518,7 +1523,8 @@ footer {
 		transition: all 0.2s ease-in-out;
 		margin-bottom: 1.25em;
 		text-transform: uppercase;
-		background-color: transparent;
+		background-color: red !important;
+
 	}
 
 	#contact-submit:hover {
@@ -1549,8 +1555,7 @@ footer {
 		grid-template-columns: repeat(2, 1fr); 
 		grid-row-gap: 1.25em;
 		grid-column-gap: 1.875em;
-		margin-left: 0 auto;
-		margin-right: 0 auto;
+		margin: 0 auto;
 		margin-bottom: 1.875em;
 		margin-top: 1.875em;
 	}
@@ -1881,6 +1886,10 @@ footer {
 		padding-top: 40px;
 	}
 
+	#events-grid img {
+		border-radius: 100%;
+	}
+
 	#specials-grid {
 		margin: auto 0;
 		width: 80%;
@@ -1890,6 +1899,10 @@ footer {
 		grid-row-gap: 1.25em;
 		grid-column-gap: 1.875em;
 		padding-top: 40px;
+	}
+
+	#specials-grid img {
+		border-radius: 100%;
 	}
 
 	.event-title {
@@ -2009,7 +2022,7 @@ footer {
 
 	#contact-submit {
 		font-family: rift, helvetica, arial, sans-serif;
-		height: 6.375em; /*50px */
+		height: 3em; /*50px */
 		color: #666 !important;
 		font-size: 1.3em;
 		text-decoration: none;
